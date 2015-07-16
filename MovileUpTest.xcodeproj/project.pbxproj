@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		062B0D3E825D24C05BF0B261 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B3FF3DA39D11E3E6B84065 /* Foundation.framework */; };
+		296250C31B56E9E300E6B5FB /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296250C21B56E9E300E6B5FB /* CustomNavigationController.swift */; };
+		296250C51B56F78000E6B5FB /* subzero avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 296250C41B56F78000E6B5FB /* subzero avatar.png */; };
+		296250C71B58290000E6B5FB /* EpisodeDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296250C61B58290000E6B5FB /* EpisodeDescriptionViewController.swift */; };
+		296250C91B582E4B00E6B5FB /* ListEpisodesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296250C81B582E4B00E6B5FB /* ListEpisodesViewController.swift */; };
+		296250CF1B58342500E6B5FB /* EpisodeItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296250CE1B58342500E6B5FB /* EpisodeItemView.swift */; };
 		4A16A73FA201B5FD9B556228 /* libPods-unit_tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E846BC337C72C4F134EA1D7 /* libPods-unit_tests.a */; };
 		78582FD79EFFFB7B50269DC0 /* Main.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = 89A1677DBB6D133BC8B559F0 /* Main.storyboard */; };
 		B386FCFBA67B4BBDCA6C8430 /* LaunchScreen.xib in Sources */ = {isa = PBXBuildFile; fileRef = 2D9A1803280CB9D3BAD55D9E /* LaunchScreen.xib */; };
@@ -28,6 +33,11 @@
 
 /* Begin PBXFileReference section */
 		1E846BC337C72C4F134EA1D7 /* libPods-unit_tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-unit_tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		296250C21B56E9E300E6B5FB /* CustomNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
+		296250C41B56F78000E6B5FB /* subzero avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "subzero avatar.png"; path = "../../../Downloads/subzero avatar.png"; sourceTree = "<group>"; };
+		296250C61B58290000E6B5FB /* EpisodeDescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeDescriptionViewController.swift; sourceTree = "<group>"; };
+		296250C81B582E4B00E6B5FB /* ListEpisodesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListEpisodesViewController.swift; sourceTree = "<group>"; };
+		296250CE1B58342500E6B5FB /* EpisodeItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeItemView.swift; sourceTree = "<group>"; };
 		2D9A1803280CB9D3BAD55D9E /* LaunchScreen.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		33143037D7703EF1488AA174 /* Settings.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		516559229B6FD6353A8F2E40 /* Pods-unit_tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -65,6 +75,7 @@
 		03C737716E45310A6D2C8E87 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				296250CE1B58342500E6B5FB /* EpisodeItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -159,6 +170,7 @@
 		86B465A642A3697088DE3CB1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				296250C41B56F78000E6B5FB /* subzero avatar.png */,
 				5824CF79430A3389A3188791 /* Images.xcassets */,
 				C119169048B756200B9BEADA /* Storyboards */,
 				3DF3378F4CC23A61AEA2B1A2 /* Nibs */,
@@ -218,6 +230,9 @@
 		F6FB374A64757B4AA632D69B /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				296250C21B56E9E300E6B5FB /* CustomNavigationController.swift */,
+				296250C61B58290000E6B5FB /* EpisodeDescriptionViewController.swift */,
+				296250C81B582E4B00E6B5FB /* ListEpisodesViewController.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -312,6 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D38BA30E92054553406898EF /* Images.xcassets in Resources */,
+				296250C51B56F78000E6B5FB /* subzero avatar.png in Resources */,
 				C479F15F94FB6A0324C3559B /* Settings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,8 +407,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				296250C31B56E9E300E6B5FB /* CustomNavigationController.swift in Sources */,
+				296250CF1B58342500E6B5FB /* EpisodeItemView.swift in Sources */,
 				D07D9D2ED8F4923B829A9592 /* AppDelegate.swift in Sources */,
 				78582FD79EFFFB7B50269DC0 /* Main.storyboard in Sources */,
+				296250C71B58290000E6B5FB /* EpisodeDescriptionViewController.swift in Sources */,
+				296250C91B582E4B00E6B5FB /* ListEpisodesViewController.swift in Sources */,
 				B386FCFBA67B4BBDCA6C8430 /* LaunchScreen.xib in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
