@@ -4,14 +4,24 @@ platform :ios, '8.0'
 
 # Add Application pods here
 
+
+use_frameworks!
+target "MovileUpTest", :exclusive => true do
+    pod 'Alamofire'
+    pod 'Result'
+    pod 'Kingfisher'
+end
+
 target :unit_tests, :exclusive => true do
   link_with 'UnitTests'
   pod 'Specta'
   pod 'Expecta'
   pod 'OCMock'
   pod 'OHHTTPStubs'
+  pod 'Alamofire'
+  pod 'Result'
+  #pod 'TraktModels', :git => 'https://github.com/marcelofabri/TraktModles.git'
 end
-
 
 # Copy acknowledgements to the Settings.bundle
 

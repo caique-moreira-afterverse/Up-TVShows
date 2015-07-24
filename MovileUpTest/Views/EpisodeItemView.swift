@@ -13,4 +13,5 @@ class EpisodeItemView : UITableViewCell {
     
     @IBOutlet weak var EpisodeIdLabel: UILabel!
     @IBOutlet weak var EpisodeNameLabel: UILabel!
+    
 }

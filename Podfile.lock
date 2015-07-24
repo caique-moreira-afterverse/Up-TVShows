@@ -1,19 +1,31 @@
 PODS:
+  - Alamofire (1.2.3)
+  - Box (1.2.2)
   - Expecta (1.0.0)
+  - Kingfisher (1.4.2)
   - OCMock (3.1.2)
   - OHHTTPStubs (4.0.2)
+  - Result (0.4.4):
+    - Box (~> 1.2)
   - Specta (1.0.2)
 
 DEPENDENCIES:
+  - Alamofire
   - Expecta
+  - Kingfisher
   - OCMock
   - OHHTTPStubs
+  - Result
   - Specta
 
 SPEC CHECKSUMS:
+  Alamofire: 5550bf0b575ed1a4bf9be572f9463e1015cc169e
+  Box: a92e8aa4c099e6bc0733829665caf9e668ef53b8
   Expecta: 32604574add2c46a36f8d2f716b6c5736eb75024
+  Kingfisher: 4446782a827abbe2e6048a1fa741924a10e6ad7c
   OCMock: a10ea9f0a6e921651f96f78b6faee95ebc813b92
   OHHTTPStubs: dbd1957d414659783e07b49c961940b7564c23d9
+  Result: b44f6bc8762bbffaf2c5df58f2c7d12c3496ced8
   Specta: 9cec98310dca411f7c7ffd6943552b501622abfe
 
 COCOAPODS: 0.37.2

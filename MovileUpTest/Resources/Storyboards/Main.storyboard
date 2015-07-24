@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Znc-0v-yGb">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Znc-0v-yGb">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Custom Navigation Controller-->
@@ -13,12 +14,12 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="CVX-tY-AFn" kind="relationship" relationship="rootViewController" id="b4P-yo-hyK"/>
+                        <segue destination="WzN-NM-MJX" kind="relationship" relationship="rootViewController" id="Cac-Kc-9mA"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iI7-26-1MG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-876" y="111"/>
+            <point key="canvasLocation" x="-851" y="280"/>
         </scene>
         <!--Titulo-->
         <scene sceneID="rFA-6C-qkb">
@@ -32,27 +33,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg-overlay" translatesAutoresizingMaskIntoConstraints="NO" id="C7A-ka-Fth">
+                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bg-overlay" translatesAutoresizingMaskIntoConstraints="NO" id="C7A-ka-Fth">
                                 <rect key="frame" x="0.0" y="64" width="320" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="200" id="Vwd-I7-YKo"/>
                                     <constraint firstAttribute="height" constant="200" id="vJZ-YR-cMS"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Overview" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QeE-d5-dpQ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Overview" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QeE-d5-dpQ">
                                 <rect key="frame" x="13" y="272" width="72" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jem-7S-ZuV">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jem-7S-ZuV">
                                 <rect key="frame" x="13" y="300" width="294" height="268"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The adventures of Ragnar Lothbrok: the greatest hero" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jKD-bt-HmX">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="The adventures of Ragnar Lothbrok: the greatest hero" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jKD-bt-HmX">
                                 <rect key="frame" x="13" y="210" width="281" height="41"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -85,7 +86,91 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J0V-wU-XnT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="216" y="75"/>
+            <point key="canvasLocation" x="728" y="73"/>
+        </scene>
+        <!--List Shows View Controller-->
+        <scene sceneID="ALL-I9-Nah">
+            <objects>
+                <viewController id="WzN-NM-MJX" customClass="ListShowsViewController" customModule="MovileUpTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="neK-4p-Tyu"/>
+                        <viewControllerLayoutGuide type="bottom" id="q3G-1D-wf5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="l94-YQ-rra">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="78t-wn-VUe">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="1" minimumInteritemSpacing="1" id="XDX-30-wud">
+                                    <size key="itemSize" width="90" height="150"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="cellShow" reuseIdentifier="CellShow" id="GZd-xo-Jc0" customClass="TvShowItemView" customModule="MovileUpTest" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="90" height="150"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="poster" translatesAutoresizingMaskIntoConstraints="NO" id="gPG-in-ot7">
+                                                    <rect key="frame" x="0.0" y="0.0" width="90" height="115"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="90" id="KWN-dO-fcO"/>
+                                                        <constraint firstAttribute="height" constant="115" id="NfK-yo-v81"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ja-1x-Kn7">
+                                                    <rect key="frame" x="24" y="129" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="gPG-in-ot7" firstAttribute="top" secondItem="GZd-xo-Jc0" secondAttribute="top" id="HGt-DK-uoH"/>
+                                            <constraint firstItem="0Ja-1x-Kn7" firstAttribute="top" secondItem="gPG-in-ot7" secondAttribute="top" constant="129" id="Z4A-gc-yQH"/>
+                                            <constraint firstItem="gPG-in-ot7" firstAttribute="leading" secondItem="GZd-xo-Jc0" secondAttribute="leading" id="j4Q-EH-gyy"/>
+                                            <constraint firstItem="0Ja-1x-Kn7" firstAttribute="centerX" secondItem="gPG-in-ot7" secondAttribute="centerX" id="lko-HL-GKz"/>
+                                            <constraint firstItem="gPG-in-ot7" firstAttribute="top" secondItem="GZd-xo-Jc0" secondAttribute="topMargin" constant="-8" id="o7m-Ju-VKj"/>
+                                        </constraints>
+                                        <size key="customSize" width="90" height="150"/>
+                                        <connections>
+                                            <outlet property="imageShow" destination="gPG-in-ot7" id="uhC-YS-1Sh"/>
+                                            <outlet property="nameShow" destination="0Ja-1x-Kn7" id="yE9-Mf-O15"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="WzN-NM-MJX" id="juN-jk-MrX"/>
+                                    <outlet property="delegate" destination="WzN-NM-MJX" id="8Oc-pI-Tud"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="78t-wn-VUe" firstAttribute="leading" secondItem="l94-YQ-rra" secondAttribute="leading" id="9AN-GR-Ecz"/>
+                            <constraint firstItem="q3G-1D-wf5" firstAttribute="top" secondItem="78t-wn-VUe" secondAttribute="bottom" id="YLF-YC-30G"/>
+                            <constraint firstItem="78t-wn-VUe" firstAttribute="top" secondItem="l94-YQ-rra" secondAttribute="top" id="eZJ-aI-oLB"/>
+                            <constraint firstAttribute="trailing" secondItem="78t-wn-VUe" secondAttribute="trailing" id="ehT-E4-51B"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="YoF-QO-a8L"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="collectionView" destination="78t-wn-VUe" id="2nc-Sj-BCZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="waR-DB-BCv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-246" y="227"/>
         </scene>
         <!--List Episodes View Controller-->
         <scene sceneID="Iob-wR-y4j">
@@ -158,10 +243,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZU9-4T-iBw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-47" y="959"/>
+            <point key="canvasLocation" x="233" y="717"/>
         </scene>
     </scenes>
     <resources>
         <image name="bg-overlay" width="320" height="200"/>
+        <image name="poster" width="96" height="139"/>
     </resources>
 </document>

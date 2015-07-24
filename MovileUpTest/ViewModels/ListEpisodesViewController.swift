@@ -33,7 +33,7 @@ class ListEpisodesViewController : UIViewController, UITableViewDelegate, UITabl
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as EpisodeItemView
+        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! EpisodeItemView
         cell.EpisodeIdLabel.text =  " \(episodios[indexPath.row].episodeId)"
         cell.EpisodeNameLabel.text = " \(episodios[indexPath.row].episodeName)"
         return cell

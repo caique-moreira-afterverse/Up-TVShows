@@ -8,12 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		062B0D3E825D24C05BF0B261 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B3FF3DA39D11E3E6B84065 /* Foundation.framework */; };
+		17552E8FCB312687E577295E /* Pods_MovileUpTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C1EE324B03688DB747E7833 /* Pods_MovileUpTest.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		296250C31B56E9E300E6B5FB /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296250C21B56E9E300E6B5FB /* CustomNavigationController.swift */; };
 		296250C51B56F78000E6B5FB /* subzero avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 296250C41B56F78000E6B5FB /* subzero avatar.png */; };
 		296250C71B58290000E6B5FB /* EpisodeDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296250C61B58290000E6B5FB /* EpisodeDescriptionViewController.swift */; };
 		296250C91B582E4B00E6B5FB /* ListEpisodesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296250C81B582E4B00E6B5FB /* ListEpisodesViewController.swift */; };
 		296250CF1B58342500E6B5FB /* EpisodeItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296250CE1B58342500E6B5FB /* EpisodeItemView.swift */; };
-		4A16A73FA201B5FD9B556228 /* libPods-unit_tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E846BC337C72C4F134EA1D7 /* libPods-unit_tests.a */; };
+		296250D11B59766500E6B5FB /* ListShowsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296250D01B59766500E6B5FB /* ListShowsViewController.swift */; };
+		296250D31B59767D00E6B5FB /* TvShowItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296250D21B59767D00E6B5FB /* TvShowItemView.swift */; };
+		29D867D61B6011DA007E339D /* TraktHttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D867D51B6011DA007E339D /* TraktHttpClient.swift */; };
+		29D867D81B601C90007E339D /* Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D867D71B601C90007E339D /* Show.swift */; };
+		29D867DA1B601D8E007E339D /* Identifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D867D91B601D8E007E339D /* Identifiers.swift */; };
+		29D867DC1B60306A007E339D /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D867DB1B60306A007E339D /* Episode.swift */; };
+		29D867DE1B616475007E339D /* JsonDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D867DD1B616475007E339D /* JsonDecodable.swift */; };
+		29D867E01B616B46007E339D /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D867DF1B616B46007E339D /* Image.swift */; };
+		29D867E21B6187DE007E339D /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D867E11B6187DE007E339D /* Images.swift */; };
+		29D867E41B618D5B007E339D /* Season.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D867E31B618D5B007E339D /* Season.swift */; };
+		29D867E71B62BD32007E339D /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D867E61B62BD32007E339D /* Storyboards.swift */; };
+		29D867E91B62BF39007E339D /* poster.png in Resources */ = {isa = PBXBuildFile; fileRef = 29D867E81B62BF39007E339D /* poster.png */; };
+		5ADB87DFDFD7F121AD196E55 /* Pods_unit_tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8D9FC33A4A00A618BB9ABC /* Pods_unit_tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		78582FD79EFFFB7B50269DC0 /* Main.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = 89A1677DBB6D133BC8B559F0 /* Main.storyboard */; };
 		B386FCFBA67B4BBDCA6C8430 /* LaunchScreen.xib in Sources */ = {isa = PBXBuildFile; fileRef = 2D9A1803280CB9D3BAD55D9E /* LaunchScreen.xib */; };
 		C479F15F94FB6A0324C3559B /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 33143037D7703EF1488AA174 /* Settings.bundle */; };
@@ -32,12 +45,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1E846BC337C72C4F134EA1D7 /* libPods-unit_tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-unit_tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		296250C21B56E9E300E6B5FB /* CustomNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
 		296250C41B56F78000E6B5FB /* subzero avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "subzero avatar.png"; path = "../../../Downloads/subzero avatar.png"; sourceTree = "<group>"; };
 		296250C61B58290000E6B5FB /* EpisodeDescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeDescriptionViewController.swift; sourceTree = "<group>"; };
 		296250C81B582E4B00E6B5FB /* ListEpisodesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListEpisodesViewController.swift; sourceTree = "<group>"; };
 		296250CE1B58342500E6B5FB /* EpisodeItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeItemView.swift; sourceTree = "<group>"; };
+		296250D01B59766500E6B5FB /* ListShowsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListShowsViewController.swift; sourceTree = "<group>"; };
+		296250D21B59767D00E6B5FB /* TvShowItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TvShowItemView.swift; sourceTree = "<group>"; };
+		29D867D51B6011DA007E339D /* TraktHttpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TraktHttpClient.swift; sourceTree = "<group>"; };
+		29D867D71B601C90007E339D /* Show.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Show.swift; sourceTree = "<group>"; };
+		29D867D91B601D8E007E339D /* Identifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Identifiers.swift; sourceTree = "<group>"; };
+		29D867DB1B60306A007E339D /* Episode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		29D867DD1B616475007E339D /* JsonDecodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonDecodable.swift; sourceTree = "<group>"; };
+		29D867DF1B616B46007E339D /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		29D867E11B6187DE007E339D /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		29D867E31B618D5B007E339D /* Season.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Season.swift; sourceTree = "<group>"; };
+		29D867E61B62BD32007E339D /* Storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
+		29D867E81B62BF39007E339D /* poster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poster.png; sourceTree = "<group>"; };
 		2D9A1803280CB9D3BAD55D9E /* LaunchScreen.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		33143037D7703EF1488AA174 /* Settings.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		516559229B6FD6353A8F2E40 /* Pods-unit_tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -46,9 +70,13 @@
 		75B3FF3DA39D11E3E6B84065 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7937443A85A34714A5B4AB19 /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BFE1EBBBC558B0F45C0BD1C /* MovileUpTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovileUpTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C1EE324B03688DB747E7833 /* Pods_MovileUpTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovileUpTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE30572C71F321273DE590E /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89A1677DBB6D133BC8B559F0 /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		97541AA6C9C0EF8A0894ED27 /* Pods-MovileUpTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovileUpTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MovileUpTest/Pods-MovileUpTest.debug.xcconfig"; sourceTree = "<group>"; };
+		9C8D9FC33A4A00A618BB9ABC /* Pods_unit_tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_unit_tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E1F9DCF2515F927BCFCB09 /* Pods-unit_tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA96062A16F6A5BE19383580 /* Pods-MovileUpTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovileUpTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-MovileUpTest/Pods-MovileUpTest.release.xcconfig"; sourceTree = "<group>"; };
 		F3D26C8C3F9AD0F77D078B6A /* UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,6 +86,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				062B0D3E825D24C05BF0B261 /* Foundation.framework in Frameworks */,
+				17552E8FCB312687E577295E /* Pods_MovileUpTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,7 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A16A73FA201B5FD9B556228 /* libPods-unit_tests.a in Frameworks */,
+				5ADB87DFDFD7F121AD196E55 /* Pods_unit_tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				296250CE1B58342500E6B5FB /* EpisodeItemView.swift */,
+				296250D21B59767D00E6B5FB /* TvShowItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -85,6 +115,8 @@
 			children = (
 				516559229B6FD6353A8F2E40 /* Pods-unit_tests.release.xcconfig */,
 				B5E1F9DCF2515F927BCFCB09 /* Pods-unit_tests.debug.xcconfig */,
+				CA96062A16F6A5BE19383580 /* Pods-MovileUpTest.release.xcconfig */,
+				97541AA6C9C0EF8A0894ED27 /* Pods-MovileUpTest.debug.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -155,7 +187,8 @@
 			isa = PBXGroup;
 			children = (
 				9DE1693636C877D32E4FFEC2 /* iOS */,
-				1E846BC337C72C4F134EA1D7 /* libPods-unit_tests.a */,
+				7C1EE324B03688DB747E7833 /* Pods_MovileUpTest.framework */,
+				9C8D9FC33A4A00A618BB9ABC /* Pods_unit_tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -170,6 +203,7 @@
 		86B465A642A3697088DE3CB1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				29D867E81B62BF39007E339D /* poster.png */,
 				296250C41B56F78000E6B5FB /* subzero avatar.png */,
 				5824CF79430A3389A3188791 /* Images.xcassets */,
 				C119169048B756200B9BEADA /* Storyboards */,
@@ -199,6 +233,13 @@
 		BEEC07B763CE8E27576A75B4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				29D867D71B601C90007E339D /* Show.swift */,
+				29D867D91B601D8E007E339D /* Identifiers.swift */,
+				29D867DB1B60306A007E339D /* Episode.swift */,
+				29D867DD1B616475007E339D /* JsonDecodable.swift */,
+				29D867DF1B616B46007E339D /* Image.swift */,
+				29D867E11B6187DE007E339D /* Images.swift */,
+				29D867E31B618D5B007E339D /* Season.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -222,7 +263,9 @@
 		CC5A30342F36A35667BF7E95 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				29D867E61B62BD32007E339D /* Storyboards.swift */,
 				7EE30572C71F321273DE590E /* AppDelegate.swift */,
+				29D867D51B6011DA007E339D /* TraktHttpClient.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -233,6 +276,7 @@
 				296250C21B56E9E300E6B5FB /* CustomNavigationController.swift */,
 				296250C61B58290000E6B5FB /* EpisodeDescriptionViewController.swift */,
 				296250C81B582E4B00E6B5FB /* ListEpisodesViewController.swift */,
+				296250D01B59766500E6B5FB /* ListShowsViewController.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -263,6 +307,7 @@
 				FF66C3E963903E4B999A212C /* Frameworks */,
 				F92458F4304E3FC71CCC6505 /* Resources */,
 				8D2475041662EF0DFAE91FCE /* Copy Pods Resources */,
+				FEF10C4F42DDF613C4C10A07 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -278,11 +323,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A915E2C931E014EDAE2C6EF8 /* Build configuration list for PBXNativeTarget "MovileUpTest" */;
 			buildPhases = (
+				87250FC524268521E89B09A4 /* Check Pods Manifest.lock */,
+				29D867E51B62BCEF007E339D /* Run Script (Natalie) */,
 				3DDA619DDA540B7609F0DF37 /* Sources */,
 				73E0997C7B07522C41F1B67C /* Frameworks */,
 				1EA8AB8C2FFD142CFE121FD3 /* Resources */,
 				BBB2CCE2E44993FA8820D218 /* Warn for TODO and FIXME comments */,
 				0DF1880544D84D391C0B5AF7 /* Set version number */,
+				CD4E3A5031F04C7DE5662CD3 /* Embed Pods Frameworks */,
+				06608F8B507903B657B12E89 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -328,6 +377,7 @@
 			files = (
 				D38BA30E92054553406898EF /* Images.xcassets in Resources */,
 				296250C51B56F78000E6B5FB /* subzero avatar.png in Resources */,
+				29D867E91B62BF39007E339D /* poster.png in Resources */,
 				C479F15F94FB6A0324C3559B /* Settings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,6 +392,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		06608F8B507903B657B12E89 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MovileUpTest/Pods-MovileUpTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		0DF1880544D84D391C0B5AF7 /* Set version number */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -357,6 +422,35 @@
 			shellScript = "git=$(sh /etc/profile; which git)\ngit_release_version=$(\"$git\" describe --tags --always --abbrev=0)\nnumber_of_commits=$(\"$git\" rev-list master | wc -l | tr -d ' ')\ntarget_plist=\"$TARGET_BUILD_DIR/$INFOPLIST_PATH\"\ndsym_plist=\"$DWARF_DSYM_FOLDER_PATH/$DWARF_DSYM_FILE_NAME/Contents/Info.plist\"\n\nfor plist in \"$target_plist\" \"$dsym_plist\"; do\n  if [ -f \"$plist\" ]; then\n    /usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $number_of_commits\" \"$plist\"\n    /usr/libexec/PlistBuddy -c \"Set :CFBundleShortVersionString ${git_release_version#*v}\" \"$plist\"\n  fi\ndone\n";
 		};
 		1606CA4BBE0196880F141A0B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		29D867E51B62BCEF007E339D /* Run Script (Natalie) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script (Natalie)";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"Natalie generator\"\n\nNATALIE_PATH=\"/usr/local/bin/natalie.swift\"\n\nif [ -f $NATALIE_PATH ]\nthen\n$NATALIE_PATH \"$PROJECT_DIR/$PROJECT_NAME\" > \"$PROJECT_DIR/$PROJECT_NAME/Controllers/Storyboards.swift\"\nfi";
+		};
+		87250FC524268521E89B09A4 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -400,6 +494,36 @@
 			shellPath = /bin/sh;
 			shellScript = "KEYWORDS=\"TODO:|FIXME:|\\?\\?\\?:|\\!\\!\\!:\"\nFILE_EXTENSIONS=\"swift|h|m|mm|c|cpp\"\nfind -E \"${SRCROOT}\" -ipath \"${SRCROOT}/pods\" -prune -o \\( -regex \".*\\.($FILE_EXTENSIONS)$\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | perl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"\n";
 		};
+		CD4E3A5031F04C7DE5662CD3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MovileUpTest/Pods-MovileUpTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEF10C4F42DDF613C4C10A07 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -409,11 +533,22 @@
 			files = (
 				296250C31B56E9E300E6B5FB /* CustomNavigationController.swift in Sources */,
 				296250CF1B58342500E6B5FB /* EpisodeItemView.swift in Sources */,
+				296250D31B59767D00E6B5FB /* TvShowItemView.swift in Sources */,
+				29D867DE1B616475007E339D /* JsonDecodable.swift in Sources */,
+				29D867E01B616B46007E339D /* Image.swift in Sources */,
 				D07D9D2ED8F4923B829A9592 /* AppDelegate.swift in Sources */,
+				29D867E71B62BD32007E339D /* Storyboards.swift in Sources */,
 				78582FD79EFFFB7B50269DC0 /* Main.storyboard in Sources */,
+				29D867D61B6011DA007E339D /* TraktHttpClient.swift in Sources */,
 				296250C71B58290000E6B5FB /* EpisodeDescriptionViewController.swift in Sources */,
+				29D867DC1B60306A007E339D /* Episode.swift in Sources */,
 				296250C91B582E4B00E6B5FB /* ListEpisodesViewController.swift in Sources */,
 				B386FCFBA67B4BBDCA6C8430 /* LaunchScreen.xib in Sources */,
+				296250D11B59766500E6B5FB /* ListShowsViewController.swift in Sources */,
+				29D867E21B6187DE007E339D /* Images.swift in Sources */,
+				29D867DA1B601D8E007E339D /* Identifiers.swift in Sources */,
+				29D867D81B601C90007E339D /* Show.swift in Sources */,
+				29D867E41B618D5B007E339D /* Season.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,6 +712,7 @@
 		};
 		7DED4156D1B1D9C2AD035F11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97541AA6C9C0EF8A0894ED27 /* Pods-MovileUpTest.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
@@ -600,6 +736,7 @@
 		};
 		D6942AAFC78927B695BF6AF3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA96062A16F6A5BE19383580 /* Pods-MovileUpTest.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
